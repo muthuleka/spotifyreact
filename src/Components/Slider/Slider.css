@@ -1,0 +1,22 @@
+.popular_artists_heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 20px 0 20px;
+}
+.popular_artists_heading p{
+    cursor: pointer;
+    font-size: smaller;
+}
+.popular_artists_heading p:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+.popular_artists_heading h2:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.props_popular_artist{
+    display: flex;
+    overflow: scroll;
+}

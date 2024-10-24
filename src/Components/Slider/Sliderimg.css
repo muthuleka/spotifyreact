@@ -1,0 +1,43 @@
+.slider{
+    margin: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    padding: 15px;
+}
+.sliderimg img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.slidercont{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.slidercont p{
+    font-size: smaller;
+}
+.spotify_play{
+    color: white;
+    background: rgb(31,215,97);
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    opacity: 0;
+    font-size: x-large;
+    cursor: pointer;
+}
+.slider:hover .spotify_play{
+    opacity: 1;
+}
+.slider:hover{
+    background-color: rgb(31,31,30);
+    border-radius: 10px;
+}

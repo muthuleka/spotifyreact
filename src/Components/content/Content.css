@@ -1,0 +1,73 @@
+.content_main{
+    background: linear-gradient(to bottom, rgb(31,31,30), #121313, #121313, #121313, #121313, #121313, #121313);
+    width: 100%;
+    height: 325vh;
+    border-radius: 10px;
+}
+.content_navbar{
+    width: 96.55%;
+    height: 4vh;
+    background-color: rgb(16,17,16);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    position: sticky;
+    align-items: center;
+}
+.search-input{
+    background-color: rgb(43,42,43);
+    width: 300px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    border-radius: 25px;
+}
+.nav_arrows{
+    display: flex;
+    gap: 20px;
+
+}
+.nav_auth_buttons{
+    display: flex;
+    gap: 20px;
+}
+.nav_arrows button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background-color: rgb(9,8,8);
+    color: white;
+    cursor: pointer;
+   border: none;
+}
+.signup_button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    /* transition: background-color 0.3s; */
+    border-radius: 20px;
+
+}
+.login_button{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 20px;
+}
+.login_button:hover{
+    background-color: #ffffff;
+    color: black;
+    transform: scaleY(1.1);
+}
+.signup_button:hover{
+    transform: scaleY(1.1);
+    border: none;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}

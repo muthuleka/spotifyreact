@@ -1,0 +1,21 @@
+.search_browse{
+    margin: 50px 5px 20px 20px;
+}
+.browse{
+    margin-top: 20px;
+}
+.browseimg img{
+    width: 265px;
+    height: 140px;
+    border-radius: 10px;
+}
+.search_browse_flex{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+  }
+  

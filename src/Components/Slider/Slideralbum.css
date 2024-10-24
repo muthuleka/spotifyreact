@@ -1,0 +1,42 @@
+.sliders{
+    margin: 20cdpx 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    padding: 15px;
+}
+.sliderimgs img {
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.sliderconts{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sliderconts p{
+    font-size: smaller;
+}
+.spotify_plays{
+    color: white;
+    background: rgb(31,215,97);
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    opacity: 0;
+    font-size: x-large;
+    cursor: pointer;
+}
+.sliders:hover .spotify_plays{
+    opacity: 1;
+}
+.sliders:hover{
+    background-color: rgb(31,31,30);
+    border-radius: 10px;
+}

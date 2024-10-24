@@ -1,0 +1,38 @@
+.footer{
+    display: flex;
+    margin: 50px 40px 20px 40px;
+    justify-content: space-between;
+}
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.company p{
+    font-size: smaller;
+}
+.social_media{
+    display: flex;
+    gap: 20px;
+    font-size: xx-large;
+}
+.social_media .icon {
+    background-color: rgb(34, 34, 34);
+}
+.social_media .icon:hover {
+    background-color: rgb(108, 108, 108);
+}
+.line{
+    height: 1px;
+    background-color: rgb(33, 33, 33);
+    margin: 50px 40px 20px 40px;
+
+}
+.trade{
+    margin: 50px 40px 20px 40px;
+    font-weight: 700;
+}
+.company p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
